@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#c1 {
+    width: 600px;
+    height: 600px;
+    border: 3px solid black;
+}
+.content {
+    height: 100vh;
+    max-width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+.right__box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.right__box:first-child {
+    margin-top: 0;
+}
+p {
+    padding-left: 10px;
+}
+button {
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    font-style: 22px;
+    text-transform: uppercase;
+}
